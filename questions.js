@@ -8,7 +8,7 @@ var questions = [
   {
       title: "What is the correct JavaScript syntax to change the content of the HTML element below?",
       choices: ["#demo.innerHTML = 'Hello World!';", "document.getElementByName('p').innerHTML = 'Hello World!';", "document.getElementById('demo').innerHTML = 'Hello World!';", "document.getElement('p').innerHTML = 'Hello World!'"],
-      answer: "Hen of the Woods"
+      answer: "document.getElementByName('p').innerHTML = 'Hello World!';"
   },
 
   {
