@@ -17,7 +17,7 @@ function startTimer() {
     document.getElementById("home").classList.add('d-none');
     document.getElementById("quiz").classList.remove('d-none');
 
-    // timer set and begins 120 second countdown
+    // timer set and begins 120 second timerInterval
     setTimer();
 
     // create questions to display
@@ -26,12 +26,12 @@ function startTimer() {
 
 function setTimer() {
 
-    var countdown = setInterval(function () {
+    var timerInterval = setInterval(function () {
         secondsLeft--;
         timerElement.textContent = "Time: " + secondsLeft;
 
         if (secondsLeft === 0 || questionNumber === questions.length) {
-            clearInterval(countdown);
+            clearInterval(timerInterval);
             setTimeout(displayScore, 500);
         }
     }, 1000);
