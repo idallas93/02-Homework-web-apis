@@ -25,10 +25,13 @@ THEN the user can save their initials and score
 ## Images of homeowork web application
 
 The following images show the application functionality:
-
+### Home page
 ![home page](./Assets/StartQuiz.png)
+### Example of a quiz question in action
 ![Question Example](./Assets/QuizQuestion.png)
+### Example of a final score
 ![Final Score Example](./Assets/Finished.png)
+### Example of the hall of fame 
 ![Hall of Fame](./Assets/HallofFame.png)
 
 
