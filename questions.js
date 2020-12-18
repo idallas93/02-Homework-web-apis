@@ -1,3 +1,5 @@
+
+// input text in arrays for the quiz game
 var questions = [
   {
       title: "Inside which HTML element do we put JavaScript?",

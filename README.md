@@ -5,6 +5,10 @@
 ```
 I created a timed quiz on JavaScript fundamentals that stores high scores.
 ```
+## Deployed Link
+
+
+[Deployed link](https://idallas93.github.io/Javascript-Quiz/ "Javascript Quiz")
 
 
 ## Description of the application

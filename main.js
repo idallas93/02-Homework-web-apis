@@ -1,3 +1,4 @@
+// Define variables
 var startBtn = document.getElementById("startBtn");
 var submitBtn = document.querySelector("button.submitBtn")
 var secondsLeft = (questions.length * 20 + 1);
@@ -11,7 +12,7 @@ var answerChoices = document.getElementById("answers");
 var questionNumber = -1;
 var answer;
 
-
+// function to start the timer
 function startTimer() {
  
     document.getElementById("home").classList.add('d-none');
@@ -23,7 +24,7 @@ function startTimer() {
     // create questions to display
     makeQuestions();
 }
-
+// set the timer 
 function setTimer() {
 
     var timerInterval = setInterval(function () {
@@ -36,7 +37,7 @@ function setTimer() {
         }
     }, 1000);
 }
-
+// create questions
 function makeQuestions() {
     questionNumber++;
     answer = questions[questionNumber].answer
@@ -61,7 +62,7 @@ function displayScore() {
     userScoreElement.textContent = "FINAL SCORE: " + secondsLeft + ".";
 }
 
-// Event Listeners for Main Buttons
+// Event listeners for buttons
 startBtn.addEventListener("click", startTimer);
 submitBtn.addEventListener("click", function (event) {
     event.stopPropagation();
