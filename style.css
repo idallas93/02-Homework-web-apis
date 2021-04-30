@@ -50,3 +50,8 @@ li::before {
 #scoresTitle {
     padding-left: 16px;
 }
+
+.btn-block+.btn-block {
+    margin-top: .5rem;
+    overflow: auto!important;
+}
